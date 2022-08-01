@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_GET_Verify Single User</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e571783d-f6c3-4ced-aad0-d2c123610f07</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_POST_Verify Register Successful</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>abdc355e-59ee-4ae6-8dab-a592f0bb8ffd</testCaseGuid>
+</TestCaseEntity>

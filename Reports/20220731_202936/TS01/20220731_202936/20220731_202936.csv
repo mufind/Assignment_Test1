@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS01,,,,2022-07-31 20:29:48,2022-07-31 20:29:54,6.614s,PASSED
+,,,,,,,
+Test Cases/TC01_GET_list_users,,,,2022-07-31 20:29:48,2022-07-31 20:29:52,3.979s,PASSED
+"response = sendRequest(findTestObject(""tc1""))",,,,2022-07-31 20:29:49,2022-07-31 20:29:52,3.511s,PASSED
+"verifyResponseStatusCode(response, 200, STOP_ON_FAILURE)",,,,2022-07-31 20:29:52,2022-07-31 20:29:52,0.032s,PASSED
+,,,,,,,
+Test Cases/TC02_GET_single_user,,,,2022-07-31 20:29:52,2022-07-31 20:29:53,0.544s,PASSED
+"response = sendRequest(findTestObject(""tc2""))",,,,2022-07-31 20:29:52,2022-07-31 20:29:53,0.239s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-07-31 20:29:53,2022-07-31 20:29:53,0.005s,PASSED
+,,,,,,,
+Test Cases/TC03_PUT_update,,,,2022-07-31 20:29:53,2022-07-31 20:29:54,0.868s,PASSED
+"response = sendRequest(findTestObject(""tc3""))",,,,2022-07-31 20:29:53,2022-07-31 20:29:54,0.606s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-07-31 20:29:54,2022-07-31 20:29:54,0.003s,PASSED
+,,,,,,,
+Test Cases/TC04_POST_register_successful,,,,2022-07-31 20:29:54,2022-07-31 20:29:54,0.858s,PASSED
+"response = sendRequest(findTestObject(""tc4""))",,,,2022-07-31 20:29:54,2022-07-31 20:29:54,0.645s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-07-31 20:29:54,2022-07-31 20:29:54,0.003s,PASSED
